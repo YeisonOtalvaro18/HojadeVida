@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="shortcut icon" href="img/img3.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="acerca.html">ACERCA DE</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    
+
+            <div class="form-content">
+
+                <h1>Enviar su formulario</h1>
+                    <form action="https://formsubmit.co/yotalvaroocampo@gmail.com" method="POST">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="name " id="name">
+
+                        <label for="Email">Correo Electronico</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="ubject">Asunto</label>
+                        <input type="text" name="subject" id="subject">
+
+                        <label for="coments">Comentarios</label>
+                        <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+
+                        <input type="submit" value="Enviar">
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Hoja%20de%20Vida/contacto.html">  <!--Redireccionar  Organizar cuando este en el servidor -->
+                        <input type="hidden" name="_captcha" value="false"> <!-- Recapcha --> 
+                    </form>
+            </div>
+</body>
+</html>

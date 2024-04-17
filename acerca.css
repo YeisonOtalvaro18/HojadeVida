@@ -1,0 +1,23 @@
+body {
+    background-color: azure;
+}
+nav {
+    text-align: right;
+    margin: 50px;
+    background-color: aquamarine;
+}
+nav ul li   {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+a   {
+    text-decoration-line: none;
+    color: black;
+}
