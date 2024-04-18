@@ -1,10 +1,10 @@
 body {
-    background-color: azure;
+    background-color: #1f242d;
 }
 nav {
     text-align: right;
     margin: 50px;
-    background-color: aquamarine;
+    background-color: #0ef;
     border-radius: 25px;
 }
 nav ul li   {
