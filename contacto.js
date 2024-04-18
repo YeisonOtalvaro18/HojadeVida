@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         Mensaje: ${message.value}`;
         Email.send({
             Host: "smtp.elasticemail.com",
-            Username: "albertogcode@gmail.com",
-            Password: "C28B5F1A760A4969BC16929D8095554C1B42",
-            To: "albertogcode@gmail.com",
-            From: "albertogcode@gmail.com",
+            Username: "yotalvaroocampo@gmail.com",
+            Password: "F4D3D3D3-",
+            To: "yotalvaroocampo@gmail.com",
+            From: "yotalvaroocampo@gmail.com",
             Subject: subject.value,
             Body: bodyMessage
         }).then(
