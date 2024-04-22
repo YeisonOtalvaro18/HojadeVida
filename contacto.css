@@ -28,12 +28,7 @@ a   {
     text-decoration-line: none;
     color: rgb(0, 0, 0);
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
+
   .formulario {
     max-width: 600px; /* Ajusta este valor según necesites */
     margin: 50px auto; /* Centra el formulario */
