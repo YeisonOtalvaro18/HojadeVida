@@ -5,6 +5,7 @@ nav {
     text-align: right;
     margin: 50px;
     background-color: #0ef;
+    border-radius: 25px;
 }
 nav ul li   {
     font-family: 'Times New Roman', Times, serif;
@@ -14,10 +15,11 @@ nav ul li   {
     padding: 20px;
     font-weight: bold;
     display: inline-block;
+    
 
 }
-
 a   {
     text-decoration-line: none;
     color: black;
+    
 }
